@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NutritionModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="NutritionEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="IngredientEntities" EntityType="NutritionModel.IngredientEntity" />
+    <EntitySet Name="Ingredients_Desc" EntityType="NutritionModel.Ingredients_Desc" />
+    <EntitySet Name="RecipeDetailsEntities" EntityType="NutritionModel.RecipeDetailsEntities" />
+    <EntitySet Name="RecipeEntities" EntityType="NutritionModel.RecipeEntity" />
+    <AssociationSet Name="FK_Ingredients_Desc_Ingredients" Association="NutritionModel.FK_Ingredients_Desc_Ingredients">
+      <End Role="Ingredient" EntitySet="IngredientEntities" />
+      <End Role="Ingredients_Desc" EntitySet="Ingredients_Desc" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RecipeLkup_Ingredients" Association="NutritionModel.FK_RecipeLkup_Ingredients">
+      <End Role="Ingredient" EntitySet="IngredientEntities" />
+      <End Role="RecipeLkup" EntitySet="RecipeDetailsEntities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RecipeLkup_RecipeLkup" Association="NutritionModel.FK_RecipeLkup_RecipeLkup">
+      <End Role="Recipe" EntitySet="RecipeEntities" />
+      <End Role="RecipeLkup" EntitySet="RecipeDetailsEntities" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="IngredientEntity">
+    <Key>
+      <PropertyRef Name="NDB_No" />
+    </Key>
+    <Property Type="Int32" Name="NDB_No" Nullable="false" />
+    <Property Type="String" Name="Shrt_Desc" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Type="Decimal" Name="Water_g" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="Energ_Kcal" />
+    <Property Type="Decimal" Name="Protein_g" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Lipid_Tot_g" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Carbohydrt_g" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Fiber_TD_g" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Sugar_Tot_g" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="FA_Sat_g" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="FA_Mono_g" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="FA_Poly_g" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="Cholestrl_mg" />
+    <Property Type="Decimal" Name="GmWt_1" Precision="18" Scale="0" />
+    <Property Type="String" Name="GmWt_Desc1" MaxLength="120" FixedLength="false" Unicode="true" />
+    <Property Type="Decimal" Name="GmWt_2" Precision="18" Scale="0" />
+    <Property Type="String" Name="GmWt_Desc2" MaxLength="120" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Ingredients_Desc" Relationship="NutritionModel.FK_Ingredients_Desc_Ingredients" FromRole="Ingredient" ToRole="Ingredients_Desc" />
+    <NavigationProperty Name="RecipeDetailsEntities" Relationship="NutritionModel.FK_RecipeLkup_Ingredients" FromRole="Ingredient" ToRole="RecipeLkup" />
+    <Property Type="Int32" Name="Calcium_mg" />
+    <Property Type="Decimal" Name="Iron_mg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Magnesium_mg" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="Phosphorus_mg" />
+    <Property Type="Int32" Name="Potassium_mg" />
+    <Property Type="Int32" Name="Sodium_mg" />
+    <Property Type="Decimal" Name="Zinc_mg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Copper_mg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Manganese_mg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Selenium_µg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Vit_C_mg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Thiamin_mg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Riboflavin_mg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Niacin_mg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Panto_Acid_mg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Vit_B6_mg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Folate_Tot_µg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Choline_Tot__mg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Vit_B12_µg" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="Vit_A_IU" />
+    <Property Type="Decimal" Name="Vit_A_RAE" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Retinol_µg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Alpha_Carot_µg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Beta_Carot_µg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Beta_Crypt_µg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Lycopene_µg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Lut_Zea__µg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Vit_E_mg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Vit_D_µg" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Vit_D_IU" Precision="18" Scale="0" />
+    <Property Type="Decimal" Name="Vit_K_µg" Precision="18" Scale="0" />
+    <Property Type="Int32" Name="Refuse_Pct" />
+  </EntityType>
+  <EntityType Name="Ingredients_Desc">
+    <Key>
+      <PropertyRef Name="NDB_No" />
+    </Key>
+    <Property Type="Int32" Name="NDB_No" Nullable="false" />
+    <Property Type="String" Name="FdGrp_Cd" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Long_Desc" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Shrt_Desc" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ComName" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ManufacName" MaxLength="65" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Survey" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Ref_Desc" MaxLength="135" FixedLength="false" Unicode="true" />
+    <Property Type="Int16" Name="Refuse" />
+    <Property Type="String" Name="SciName" MaxLength="65" FixedLength="false" Unicode="true" />
+    <Property Type="Single" Name="N_Factor" />
+    <Property Type="Single" Name="Pro_Factor" />
+    <Property Type="Single" Name="Fat_Factor" />
+    <Property Type="Single" Name="CHO_Factor" />
+    <NavigationProperty Name="IngredientEntities" Relationship="NutritionModel.FK_Ingredients_Desc_Ingredients" FromRole="Ingredients_Desc" ToRole="Ingredient" />
+  </EntityType>
+  <EntityType Name="RecipeDetailsEntities">
+    <Key>
+      <PropertyRef Name="RecipeLkup_Id" />
+    </Key>
+    <Property Type="Int32" Name="Recipe_Id" Nullable="false" />
+    <Property Type="Int32" Name="Ingredient_Id" Nullable="false" />
+    <Property Type="Int32" Name="RecipeLkup_Id" Nullable="false" />
+    <Property Type="Int32" Name="Serving" />
+    <Property Type="Int32" Name="Measurement" />
+    <NavigationProperty Name="IngredientEntity" Relationship="NutritionModel.FK_RecipeLkup_Ingredients" FromRole="RecipeLkup" ToRole="Ingredient" />
+    <NavigationProperty Name="RecipeEntity" Relationship="NutritionModel.FK_RecipeLkup_RecipeLkup" FromRole="RecipeLkup" ToRole="Recipe" />
+  </EntityType>
+  <EntityType Name="RecipeEntity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="PrepTime_m" />
+    <Property Type="Int32" Name="CookTime_m" />
+    <Property Type="Int32" Name="ReadyTime_m" />
+    <Property Type="String" Name="ImgUrl" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Directions" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Decimal" Name="Rating" Precision="18" Scale="0" />
+    <NavigationProperty Name="RecipeDetailsEntities" Relationship="NutritionModel.FK_RecipeLkup_RecipeLkup" FromRole="Recipe" ToRole="RecipeLkup" />
+  </EntityType>
+  <Association Name="FK_Ingredients_Desc_Ingredients">
+    <End Type="NutritionModel.IngredientEntity" Role="Ingredient" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="NutritionModel.Ingredients_Desc" Role="Ingredients_Desc" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Ingredient">
+        <PropertyRef Name="NDB_No" />
+      </Principal>
+      <Dependent Role="Ingredients_Desc">
+        <PropertyRef Name="NDB_No" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RecipeLkup_Ingredients">
+    <End Type="NutritionModel.IngredientEntity" Role="Ingredient" Multiplicity="1" />
+    <End Type="NutritionModel.RecipeDetailsEntities" Role="RecipeLkup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ingredient">
+        <PropertyRef Name="NDB_No" />
+      </Principal>
+      <Dependent Role="RecipeLkup">
+        <PropertyRef Name="Ingredient_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RecipeLkup_RecipeLkup">
+    <End Type="NutritionModel.RecipeEntity" Role="Recipe" Multiplicity="1" />
+    <End Type="NutritionModel.RecipeDetailsEntities" Role="RecipeLkup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Recipe">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RecipeLkup">
+        <PropertyRef Name="Recipe_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,105 @@
+﻿@model BusinessObjects.Recipe
+
+@{
+    ViewBag.Title = "Edit";
+}
+<div class="container">
+    <h3>Update Recipe</h3>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+         @Html.HiddenFor(model => model.Id)
+         <div class="table-responsive">
+             <table >
+                <tbody>
+                    <tr>
+                        <td>Name: </td>
+                        <td><span class="editor-field">@Html.EditorFor(model => model.Name)@Html.ValidationMessageFor(model => model.Name)</span></td>
+                    </tr>
+                    <tr>
+                        <td>Prep Time:</td>
+                        <td><span class="editor-field">@Html.EditorFor(model => model.PrepTime_m)@Html.ValidationMessageFor(model => model.PrepTime_m)</span></td>
+                    </tr>
+                    <tr>
+                        <td>Cooking Time:</td>
+                        <td><span class="editor-field">@Html.EditorFor(model => model.CookTime_m)@Html.ValidationMessageFor(model => model.CookTime_m)</span></td>
+                    </tr>
+                    <tr>
+                        <td>Ready Time:</td>
+                        <td><span class="editor-field">@Html.EditorFor(model => model.ReadyTime_m)@Html.ValidationMessageFor(model => model.ReadyTime_m)</span></td>
+                    </tr>
+                    <tr>
+                        <td>Directions:</td>
+                        <td><span class="editor-field">@Html.EditorFor(model => model.Directions)@Html.ValidationMessageFor(model => model.Directions)</span></td>
+                    </tr>
+                    <tr>
+                        <td>Rating:</td>
+                        <td><span class="editor-field">@Html.EditorFor(model => model.Rating)@Html.ValidationMessageFor(model => model.Rating)</span></td>
+                    </tr>
+                </tbody>                
+            </table>
+             <br /><br />
+            <h3>Ingredients:</h3>
+             <table>
+                 <tr>
+                     <th>Name</th>
+                     <th>Serving</th>
+                     <th>Measurement</th>
+                 </tr>
+                 @foreach (var ing in Model.RecipeDetailsEntities)                     
+                 {
+                     Dictionary<int, string> measurements = new Dictionary<int, string>();
+                     measurements.Add(0, "100 grams");
+                     measurements.Add(1, ing.IngredientEntity.GmWt_Desc1);
+                     measurements.Add(2, ing.IngredientEntity.GmWt_Desc2);
+                  <tr id="lkupId-@ing.RecipeLkup_Id">
+                     <td>@ing.IngredientEntity.Shrt_Desc</td>
+                     <td><input type="text" class="form-control" value="@ing.IngredientEntity.Serving" /></td>
+                     <td>
+                         <select class="form-control">
+                             @foreach (var m in measurements)
+                             {
+                                 <option value="@m.Key" @(m.Key == ing.Measurement ? "selected" : "")>@m.Value</option>
+                             }
+                         </select>
+                     </td>
+                      <td><button type="button" class="btn btn-danger" onclick="removeIngredient('@ing.RecipeLkup_Id')">Remove</button></td>
+                  </tr>
+                 }         
+                 <tr>                    
+                     <td colspan="3"><button class="btn btn-success" type="button">Add Ingredient</button></td>
+                 </tr>                         
+             </table>
+             <br /><br />
+        </div>     
+        <p>
+            <input type="button" class="btn btn-primary" value="Save" />
+        </p>
+
+    }
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        function removeIngredient(ing) {
+            debugger
+            $.post("../RemoveIngredient/", { lkupId: ing }, function (data) {
+                if (data.success) {
+                    alert(ing);
+                    $('#lkupId-' + ing).hide();                    
+                }
+                else {
+                    //oops show error
+                    alert('error');
+                }
+            });
+        };
+    </script>
+}

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NutritionModelStoreContainer" CdmEntityContainer="NutritionEntities">
+    <EntitySetMapping Name="IngredientEntities">
+      <EntityTypeMapping TypeName="NutritionModel.IngredientEntity">
+        <MappingFragment StoreEntitySet="Ingredients">
+          <ScalarProperty Name="Refuse_Pct" ColumnName="Refuse_Pct" />
+          <ScalarProperty Name="Vit_K_µg" ColumnName="Vit_K_µg" />
+          <ScalarProperty Name="Vit_D_IU" ColumnName="Vit_D_IU" />
+          <ScalarProperty Name="Vit_D_µg" ColumnName="Vit_D_µg" />
+          <ScalarProperty Name="Vit_E_mg" ColumnName="Vit_E_mg" />
+          <ScalarProperty Name="Lut_Zea__µg" ColumnName="Lut+Zea_ µg" />
+          <ScalarProperty Name="Lycopene_µg" ColumnName="Lycopene_µg" />
+          <ScalarProperty Name="Beta_Crypt_µg" ColumnName="Beta_Crypt_µg" />
+          <ScalarProperty Name="Beta_Carot_µg" ColumnName="Beta_Carot_µg" />
+          <ScalarProperty Name="Alpha_Carot_µg" ColumnName="Alpha_Carot_µg" />
+          <ScalarProperty Name="Retinol_µg" ColumnName="Retinol_µg" />
+          <ScalarProperty Name="Vit_A_RAE" ColumnName="Vit_A_RAE" />
+          <ScalarProperty Name="Vit_A_IU" ColumnName="Vit_A_IU" />
+          <ScalarProperty Name="Vit_B12_µg" ColumnName="Vit_B12_µg" />
+          <ScalarProperty Name="Choline_Tot__mg" ColumnName="Choline_Tot_ mg" />
+          <ScalarProperty Name="Folate_Tot_µg" ColumnName="Folate_Tot_µg" />
+          <ScalarProperty Name="Vit_B6_mg" ColumnName="Vit_B6_mg" />
+          <ScalarProperty Name="Panto_Acid_mg" ColumnName="Panto_Acid_mg" />
+          <ScalarProperty Name="Niacin_mg" ColumnName="Niacin_mg" />
+          <ScalarProperty Name="Riboflavin_mg" ColumnName="Riboflavin_mg" />
+          <ScalarProperty Name="Thiamin_mg" ColumnName="Thiamin_mg" />
+          <ScalarProperty Name="Vit_C_mg" ColumnName="Vit_C_mg" />
+          <ScalarProperty Name="Selenium_µg" ColumnName="Selenium_µg" />
+          <ScalarProperty Name="Manganese_mg" ColumnName="Manganese_mg" />
+          <ScalarProperty Name="Copper_mg" ColumnName="Copper_mg" />
+          <ScalarProperty Name="Zinc_mg" ColumnName="Zinc_mg" />
+          <ScalarProperty Name="Sodium_mg" ColumnName="Sodium_mg" />
+          <ScalarProperty Name="Potassium_mg" ColumnName="Potassium_mg" />
+          <ScalarProperty Name="Phosphorus_mg" ColumnName="Phosphorus_mg" />
+          <ScalarProperty Name="Magnesium_mg" ColumnName="Magnesium_mg" />
+          <ScalarProperty Name="Iron_mg" ColumnName="Iron_mg" />
+          <ScalarProperty Name="Calcium_mg" ColumnName="Calcium_mg" />
+          <ScalarProperty Name="GmWt_Desc2" ColumnName="GmWt_Desc2" />
+          <ScalarProperty Name="GmWt_2" ColumnName="GmWt_2" />
+          <ScalarProperty Name="GmWt_Desc1" ColumnName="GmWt_Desc1" />
+          <ScalarProperty Name="GmWt_1" ColumnName="GmWt_1" />
+          <ScalarProperty Name="Cholestrl_mg" ColumnName="Cholestrl_mg" />
+          <ScalarProperty Name="FA_Poly_g" ColumnName="FA_Poly_g" />
+          <ScalarProperty Name="FA_Mono_g" ColumnName="FA_Mono_g" />
+          <ScalarProperty Name="FA_Sat_g" ColumnName="FA_Sat_g" />
+          <ScalarProperty Name="Sugar_Tot_g" ColumnName="Sugar_Tot_g" />
+          <ScalarProperty Name="Fiber_TD_g" ColumnName="Fiber_TD_g" />
+          <ScalarProperty Name="Carbohydrt_g" ColumnName="Carbohydrt_g" />
+          <ScalarProperty Name="Lipid_Tot_g" ColumnName="Lipid_Tot_g" />
+          <ScalarProperty Name="Protein_g" ColumnName="Protein_g" />
+          <ScalarProperty Name="Energ_Kcal" ColumnName="Energ_Kcal" />
+          <ScalarProperty Name="Water_g" ColumnName="Water_g" />
+          <ScalarProperty Name="Shrt_Desc" ColumnName="Shrt_Desc" />
+          <ScalarProperty Name="NDB_No" ColumnName="NDB_No" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ingredients_Desc">
+      <EntityTypeMapping TypeName="NutritionModel.Ingredients_Desc">
+        <MappingFragment StoreEntitySet="Ingredients_Desc">
+          <ScalarProperty Name="CHO_Factor" ColumnName="CHO_Factor" />
+          <ScalarProperty Name="Fat_Factor" ColumnName="Fat_Factor" />
+          <ScalarProperty Name="Pro_Factor" ColumnName="Pro_Factor" />
+          <ScalarProperty Name="N_Factor" ColumnName="N_Factor" />
+          <ScalarProperty Name="SciName" ColumnName="SciName" />
+          <ScalarProperty Name="Refuse" ColumnName="Refuse" />
+          <ScalarProperty Name="Ref_Desc" ColumnName="Ref_Desc" />
+          <ScalarProperty Name="Survey" ColumnName="Survey" />
+          <ScalarProperty Name="ManufacName" ColumnName="ManufacName" />
+          <ScalarProperty Name="ComName" ColumnName="ComName" />
+          <ScalarProperty Name="Shrt_Desc" ColumnName="Shrt_Desc" />
+          <ScalarProperty Name="Long_Desc" ColumnName="Long_Desc" />
+          <ScalarProperty Name="FdGrp_Cd" ColumnName="FdGrp_Cd" />
+          <ScalarProperty Name="NDB_No" ColumnName="NDB_No" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecipeDetailsEntities">
+      <EntityTypeMapping TypeName="NutritionModel.RecipeDetailsEntities">
+        <MappingFragment StoreEntitySet="RecipeLkup">
+          <ScalarProperty Name="Measurement" ColumnName="Measurement" />
+          <ScalarProperty Name="Serving" ColumnName="Serving" />
+          <ScalarProperty Name="RecipeLkup_Id" ColumnName="RecipeLkup_Id" />
+          <ScalarProperty Name="Ingredient_Id" ColumnName="Ingredient_Id" />
+          <ScalarProperty Name="Recipe_Id" ColumnName="Recipe_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecipeEntities">
+      <EntityTypeMapping TypeName="NutritionModel.RecipeEntity">
+        <MappingFragment StoreEntitySet="Recipes">
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="Directions" ColumnName="Directions" />
+          <ScalarProperty Name="ImgUrl" ColumnName="ImgUrl" />
+          <ScalarProperty Name="ReadyTime_m" ColumnName="ReadyTime_m" />
+          <ScalarProperty Name="CookTime_m" ColumnName="CookTime_m" />
+          <ScalarProperty Name="PrepTime_m" ColumnName="PrepTime_m" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

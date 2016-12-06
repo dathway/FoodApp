@@ -1,0 +1,10 @@
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\BusinessObjects\bin\Debug\BusinessObjects.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\BusinessObjects\bin\Debug\BusinessObjects.pdb
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\BusinessObjects\obj\Debug\BusinessObjects.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\BusinessObjects\obj\Debug\BusinessObjects.pdb
+C:\Users\dan\repo\MVC_FoodCalc\BusinessObjects\bin\Debug\BusinessObjects.dll
+C:\Users\dan\repo\MVC_FoodCalc\BusinessObjects\bin\Debug\BusinessObjects.pdb
+C:\Users\dan\repo\MVC_FoodCalc\BusinessObjects\obj\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
+C:\Users\dan\repo\MVC_FoodCalc\BusinessObjects\obj\Debug\BusinessObjects.dll
+C:\Users\dan\repo\MVC_FoodCalc\BusinessObjects\obj\Debug\BusinessObjects.pdb

@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Welcome";
+}
+
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                <div>Search for Food: </div>
+                @using (Html.BeginForm("Search", "home"))
+                    {
+                        
+                        <input type="textbox" id="FoodSearch" name="FoodSearch" />                        
+                        <input type="submit" value="Search" />
+                    }                
+            </p>
+        </div>
+    </section>
+}
+<h3>To Get Started:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>Search for a Food</h5>
+        Enter in a food item you wish to research.        
+    </li>
+
+    <li class="two">
+        <h5>More To Come Later...</h5>
+        Stay tuned for more udpates.
+    </li>
+</ol>
+@section Scripts
+{
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#FoodSearch").autocomplete({            
+            source: '@Url.Action("Autocomplete")',
+            minLength: 2,
+            select: function (event, ui) {
+                window.location.href = "Home/Food/" + ui.item.id;                
+            }
+        })
+    });
+</script>
+}

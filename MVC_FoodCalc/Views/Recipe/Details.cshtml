@@ -1,0 +1,125 @@
+﻿@model MVC_FoodCalc.ViewModels.RecipeViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+<div class="container">
+
+    <h2>@Html.DisplayFor(model => model.recipe.Name)</h2>
+
+    <table class="table-bordered table-recipe">
+        <tr>
+            <td><span class="display-label">Prep Time: </span></td>
+            <td><span class="display-field">@Model.recipe.PrepTime_m</span></td>
+        </tr>
+        <tr>
+            <td><span class="display-label">Cooking Time: </span></td>
+            <td><span class="display-field">@Model.recipe.CookTime_m</span></td>
+        </tr>
+        <tr>
+            <td><span class="display-label">Ready Time: </span></td>
+            <td><span class="display-field">@Model.recipe.ReadyTime_m</span></td>
+        </tr>
+        <tr>
+            <td><span class="display-label">Rating: </span></td>
+            <td><span class="display-field">@Model.recipe.Rating</span></td>
+        </tr>
+        <tr>
+            <td><span class="display-label">Directions: </span></td>
+            <td><span class="display-field">@Model.recipe.Directions</span></td>
+        </tr>
+    </table>
+
+    <div>
+        <h3>Ingredients</h3>
+        <table>
+            <thead>
+                <tr>
+                    <td><b>Name</b></td>
+                    <td><b>Amount</b></td>
+                </tr>
+            </thead>
+
+            @foreach (var detail in Model.recipe.RecipeDetailsEntities)
+            {
+                <tr>
+                    <td>@detail.IngredientEntity.Shrt_Desc</td>
+                    <td>@detail.Serving part(s)  @if (detail.Measurement == 1) {@detail.IngredientEntity.GmWt_Desc1}else{ @detail.IngredientEntity.GmWt_Desc2}</td>                    
+                </tr>
+            }
+        </table>
+
+        <table class="table-bordered table-nutrition">
+            <thead>
+                <tr>
+                    <td colspan="2"><h3>Nutrition Facts</h3></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2"><b>@Model.calculation.Shrt_Desc</b></td>
+                </tr>
+                <tr>
+                    <td><b>Calories</b></td>
+                    <td>@Model.calculation.Energ_Kcal</td>
+                </tr>
+                <tr>            
+                    <td><b>Total Fat</b></td>
+                    <td>@Model.calculation.Lipid_Tot_g g</td>
+                </tr>
+                <tr>
+                    <td class="sub-cell">Saturated fat </td>
+                    <td>@Model.calculation.FA_Sat_g g</td>
+                </tr>
+                <tr>
+                    <td class="sub-cell">Polyunsaturated fat</td>
+                    <td>@Model.calculation.FA_Poly_g g</td>
+                </tr>
+                <tr>
+                    <td class="sub-cell">Monounsaturated fat</td>
+                    <td>@Model.calculation.FA_Mono_g g</td>
+                </tr>
+                <tr>
+                    <td><b>Cholesterol</b></td>
+                    <td>@Model.calculation.Cholestrl_mg mg </td>            
+                </tr>
+                <tr>
+                    <td><b>Sodium</b></td>
+                    <td>@Model.calculation.Sodium_mg mg </td>            
+                </tr>
+                <tr>
+                    <td><b>Potassium</b></td>
+                    <td>@Model.calculation.Potassium_mg mg </td>            
+                </tr>
+
+
+                <tr>
+                    <td><b>Total Carbohydrate</b> </td>
+                    <td>@Model.calculation.Carbohydrt_g g</td>
+                </tr>
+                <tr>
+                     <td class="sub-cell">Dietary fiber </td>
+                    <td>@Model.calculation.Fiber_TD_g g</td>
+                </tr>
+                <tr>
+                    <td class="sub-cell">Sugar</td>
+                    <td>@Model.calculation.Sugar_Tot_g g</td>
+                </tr>
+                <tr>
+                    <td class="sub-cell">Net Carbohydrate </td>
+                    <td>@(Model.calculation.Carbohydrt_g - Model.calculation.Fiber_TD_g) g</td>                        
+                </tr>
+                <tr>
+                    <td><b>Protein </b> </td>
+                    <td>@Model.calculation.Protein_g g </td>            
+                </tr>        
+            </tbody>
+        </table>
+    </div>
+       
+    <br /><br />
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id=Model.recipe.Id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</div>

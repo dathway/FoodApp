@@ -1,0 +1,26 @@
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\bin\Debug\AutoMapper.Net4.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\bin\Debug\DataObjects.dll.config
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\bin\Debug\DataObjects.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\bin\Debug\DataObjects.pdb
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\bin\Debug\AutoMapper.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\bin\Debug\EntityFramework.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\bin\Debug\AutoMapper.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\bin\Debug\EntityFramework.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\obj\Debug\DataObjects.csprojResolveAssemblyReference.cache
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\obj\Debug\DataObjects.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\obj\Debug\DataObjects.pdb
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\bin\Debug\BusinessObjects.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\DataObjects\bin\Debug\BusinessObjects.pdb
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\bin\Debug\AutoMapper.Net4.dll
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\bin\Debug\DataObjects.dll.config
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\bin\Debug\DataObjects.dll
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\bin\Debug\DataObjects.pdb
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\bin\Debug\AutoMapper.dll
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\bin\Debug\BusinessObjects.dll
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\bin\Debug\EntityFramework.dll
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\bin\Debug\BusinessObjects.pdb
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\bin\Debug\AutoMapper.xml
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\bin\Debug\EntityFramework.xml
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\obj\Debug\DataObjects.csprojResolveAssemblyReference.cache
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\obj\Debug\DataObjects.dll
+C:\Users\dan\repo\MVC_FoodCalc\DataObjects\obj\Debug\DataObjects.pdb

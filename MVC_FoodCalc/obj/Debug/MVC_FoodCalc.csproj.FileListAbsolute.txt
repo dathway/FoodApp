@@ -1,0 +1,182 @@
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\MVC_FoodCalc.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\MVC_FoodCalc.pdb
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\Antlr3.Runtime.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.Core.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\EntityFramework.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Data.Edm.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Data.OData.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\Newtonsoft.Json.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Net.Http.Formatting.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Spatial.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Helpers.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Http.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Http.OData.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Http.WebHost.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Mvc.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Optimization.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Razor.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.WebPages.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.WebPages.Razor.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\WebGrease.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\WebMatrix.Data.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\WebMatrix.WebData.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\EntityFramework.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\Newtonsoft.Json.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Net.Http.Formatting.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Helpers.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Http.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Http.WebHost.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Mvc.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Razor.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.WebPages.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.WebPages.Razor.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\WebMatrix.Data.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\WebMatrix.WebData.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.Core.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Http.OData.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Data.Edm.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Data.OData.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\System.Spatial.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\de\System.Spatial.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\es\System.Spatial.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\fr\System.Spatial.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\it\System.Spatial.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\ja\System.Spatial.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\ko\System.Spatial.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\ru\System.Spatial.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\obj\Debug\MVC_FoodCalc.csprojResolveAssemblyReference.cache
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\obj\Debug\MVC_FoodCalc.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\obj\Debug\MVC_FoodCalc.pdb
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\AutoMapper.Net4.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\AutoMapper.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\AutoMapper.xml
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\ActionService.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\BusinessObjects.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DataObjects.dll
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\ActionService.pdb
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\BusinessObjects.pdb
+C:\Users\dan\Documents\Visual Studio 2012\Projects\MVC_FoodCalc\MVC_FoodCalc\bin\DataObjects.pdb
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\AutoMapper.Net4.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\MVC_FoodCalc.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\MVC_FoodCalc.pdb
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\ActionService.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\Antlr3.Runtime.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\AutoMapper.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\BusinessObjects.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.Core.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\EntityFramework.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Data.Edm.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Data.OData.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\Newtonsoft.Json.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Spatial.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Helpers.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Http.OData.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Mvc.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Optimization.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Razor.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.WebPages.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.WebPages.Razor.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\WebGrease.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\WebMatrix.Data.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\WebMatrix.WebData.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DataObjects.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\ActionService.pdb
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\BusinessObjects.pdb
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\AutoMapper.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\EntityFramework.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\Newtonsoft.Json.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Helpers.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Mvc.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Razor.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.WebPages.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.WebPages.Razor.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\WebMatrix.Data.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\WebMatrix.WebData.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.Core.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Web.Http.OData.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Data.Edm.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\Microsoft.Data.OData.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\System.Spatial.xml
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\DataObjects.pdb
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\de\System.Spatial.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\es\System.Spatial.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\fr\System.Spatial.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\it\System.Spatial.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\ja\System.Spatial.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\ko\System.Spatial.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\ru\System.Spatial.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\obj\Debug\MVC_FoodCalc.csprojResolveAssemblyReference.cache
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\obj\Debug\MVC_FoodCalc.dll
+C:\Users\dan\repo\MVC_FoodCalc\MVC_FoodCalc\obj\Debug\MVC_FoodCalc.pdb

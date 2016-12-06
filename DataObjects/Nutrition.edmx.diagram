@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6e2b9c80854340e286202e3fc508dbc1" Name="Diagram1" ZoomLevel="100">
+        <EntityTypeShape EntityType="NutritionModel.IngredientEntity" Width="2.25" PointX="0.875" PointY="1" />
+        <EntityTypeShape EntityType="NutritionModel.Ingredients_Desc" Width="2.5" PointX="4.75" PointY="4.375" />
+        <EntityTypeShape EntityType="NutritionModel.RecipeDetailsEntities" Width="2" PointX="4.625" PointY="1.125" />
+        <EntityTypeShape EntityType="NutritionModel.RecipeEntity" Width="3.625" PointX="8.25" PointY="1" />
+        <AssociationConnector Association="NutritionModel.FK_Ingredients_Desc_Ingredients" />
+        <AssociationConnector Association="NutritionModel.FK_RecipeLkup_Ingredients" />
+        <AssociationConnector Association="NutritionModel.FK_RecipeLkup_RecipeLkup" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

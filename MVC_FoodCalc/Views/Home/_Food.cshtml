@@ -1,0 +1,70 @@
+﻿@model MVC_FoodCalc.Models.IngredientModel
+
+
+<table class="table-bordered table-nutrition">
+    <thead>
+        <tr>
+            <td colspan="2"><h3>Nutrition Facts</h3></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>@Model.Shrt_Desc</b></td>
+        </tr>
+        <tr>
+            <td><b>Calories</b></td>
+            <td>@Model.Energ_Kcal</td>
+        </tr>
+        <tr>            
+            <td><b>Total Fat</b></td>
+            <td>@Model.Lipid_Tot_g g</td>
+        </tr>
+        <tr>
+            <td class="sub-cell">Saturated fat </td>
+            <td>@Model.FA_Sat_g g</td>
+        </tr>
+        <tr>
+            <td class="sub-cell">Polyunsaturated fat</td>
+            <td>@Model.FA_Poly_g g</td>
+        </tr>
+        <tr>
+            <td class="sub-cell">Monounsaturated fat</td>
+            <td>@Model.FA_Mono_g g</td>
+        </tr>
+        <tr>
+            <td><b>Cholesterol</b></td>
+            <td>@Model.Cholestrl_mg mg </td>            
+        </tr>
+        <tr>
+            <td><b>Sodium</b></td>
+            <td>@Model.Sodium_mg mg </td>            
+        </tr>
+        <tr>
+            <td><b>Potassium</b></td>
+            <td>@Model.Potassium_mg mg </td>            
+        </tr>
+
+
+        <tr>
+            <td><b>Total Carbohydrate</b> </td>
+            <td>@Model.Carbohydrt_g g</td>
+        </tr>
+        <tr>
+             <td class="sub-cell">Dietary fiber </td>
+            <td>@Model.Fiber_TD_g g</td>
+        </tr>
+        <tr>
+            <td class="sub-cell">Sugar</td>
+            <td>@Model.Sugar_Tot_g g</td>
+        </tr>
+        <tr>
+            <td class="sub-cell">Net Carbohydrate </td>
+            <td>@(Model.Carbohydrt_g - Model.Fiber_TD_g) g</td>                        
+        </tr>
+        <tr>
+            <td><b>Protein </b> </td>
+            <td>@Model.Protein_g g </td>            
+        </tr>        
+    </tbody>
+
+</table>

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_FoodCalc", "MVC_FoodCalc\MVC_FoodCalc.csproj", "{5DA116A2-E5D8-4259-90CE-7E5CD9BBEB29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataObjects", "DataObjects\DataObjects.csproj", "{719B0F54-1257-48EE-9961-C479E214116D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Data Layer", "4.Data Layer", "{E38700CD-6F03-4AB6-9EAF-8E8A68CF33BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation Layer", "1.Presentation Layer", "{8AD21269-2A6F-405F-A8A3-93EAF710223D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Business Layer", "3.Business Layer", "{55130875-EA5A-4350-84DA-652FBFE847B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{7FC61043-D5A7-4A43-B498-F7436CCE6D94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.ServiceLayer", "2.ServiceLayer", "{EFC7C2DC-263F-41B5-99A5-C2F98D3CDDB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionService", "ActionService\ActionService.csproj", "{E60049E0-072D-40B6-B299-E2EBC59CADF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DA116A2-E5D8-4259-90CE-7E5CD9BBEB29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA116A2-E5D8-4259-90CE-7E5CD9BBEB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA116A2-E5D8-4259-90CE-7E5CD9BBEB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA116A2-E5D8-4259-90CE-7E5CD9BBEB29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719B0F54-1257-48EE-9961-C479E214116D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719B0F54-1257-48EE-9961-C479E214116D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719B0F54-1257-48EE-9961-C479E214116D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719B0F54-1257-48EE-9961-C479E214116D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC61043-D5A7-4A43-B498-F7436CCE6D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC61043-D5A7-4A43-B498-F7436CCE6D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC61043-D5A7-4A43-B498-F7436CCE6D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC61043-D5A7-4A43-B498-F7436CCE6D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E60049E0-072D-40B6-B299-E2EBC59CADF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60049E0-072D-40B6-B299-E2EBC59CADF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60049E0-072D-40B6-B299-E2EBC59CADF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E60049E0-072D-40B6-B299-E2EBC59CADF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DA116A2-E5D8-4259-90CE-7E5CD9BBEB29} = {8AD21269-2A6F-405F-A8A3-93EAF710223D}
+		{719B0F54-1257-48EE-9961-C479E214116D} = {E38700CD-6F03-4AB6-9EAF-8E8A68CF33BA}
+		{7FC61043-D5A7-4A43-B498-F7436CCE6D94} = {55130875-EA5A-4350-84DA-652FBFE847B8}
+		{E60049E0-072D-40B6-B299-E2EBC59CADF3} = {EFC7C2DC-263F-41B5-99A5-C2F98D3CDDB1}
+	EndGlobalSection
+EndGlobal

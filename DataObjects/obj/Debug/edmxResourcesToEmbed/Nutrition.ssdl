@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NutritionModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="NutritionModelStoreContainer">
+    <EntitySet Name="Ingredients" EntityType="NutritionModel.Store.Ingredients" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Ingredients_Desc" EntityType="NutritionModel.Store.Ingredients_Desc" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RecipeLkup" EntityType="NutritionModel.Store.RecipeLkup" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Recipes" EntityType="NutritionModel.Store.Recipes" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_RecipeLkup_Ingredients1" Association="NutritionModel.Store.FK_RecipeLkup_Ingredients1">
+      <End Role="Ingredients" EntitySet="Ingredients" />
+      <End Role="RecipeLkup" EntitySet="RecipeLkup" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RecipeLkup_RecipeLkup" Association="NutritionModel.Store.FK_RecipeLkup_RecipeLkup">
+      <End Role="Recipes" EntitySet="Recipes" />
+      <End Role="RecipeLkup" EntitySet="RecipeLkup" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Ingredients">
+    <Key>
+      <PropertyRef Name="NDB_No" />
+    </Key>
+    <Property Name="NDB_No" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Shrt_Desc" Type="nvarchar" MaxLength="60" />
+    <Property Name="Water_g" Type="decimal" />
+    <Property Name="Energ_Kcal" Type="int" />
+    <Property Name="Protein_g" Type="decimal" />
+    <Property Name="Lipid_Tot_g" Type="decimal" />
+    <Property Name="Carbohydrt_g" Type="decimal" />
+    <Property Name="Fiber_TD_g" Type="decimal" />
+    <Property Name="Sugar_Tot_g" Type="decimal" />
+    <Property Name="Calcium_mg" Type="int" />
+    <Property Name="Iron_mg" Type="decimal" />
+    <Property Name="Magnesium_mg" Type="decimal" />
+    <Property Name="Phosphorus_mg" Type="int" />
+    <Property Name="Potassium_mg" Type="int" />
+    <Property Name="Sodium_mg" Type="int" />
+    <Property Name="Zinc_mg" Type="decimal" />
+    <Property Name="Copper_mg" Type="decimal" />
+    <Property Name="Manganese_mg" Type="decimal" />
+    <Property Name="Selenium_µg" Type="decimal" />
+    <Property Name="Vit_C_mg" Type="decimal" />
+    <Property Name="Thiamin_mg" Type="decimal" />
+    <Property Name="Riboflavin_mg" Type="decimal" />
+    <Property Name="Niacin_mg" Type="decimal" />
+    <Property Name="Panto_Acid_mg" Type="decimal" />
+    <Property Name="Vit_B6_mg" Type="decimal" />
+    <Property Name="Folate_Tot_µg" Type="decimal" />
+    <Property Name="Choline_Tot_ mg" Type="decimal" />
+    <Property Name="Vit_B12_µg" Type="decimal" />
+    <Property Name="Vit_A_IU" Type="int" />
+    <Property Name="Vit_A_RAE" Type="decimal" />
+    <Property Name="Retinol_µg" Type="decimal" />
+    <Property Name="Alpha_Carot_µg" Type="decimal" />
+    <Property Name="Beta_Carot_µg" Type="decimal" />
+    <Property Name="Beta_Crypt_µg" Type="decimal" />
+    <Property Name="Lycopene_µg" Type="decimal" />
+    <Property Name="Lut+Zea_ µg" Type="decimal" />
+    <Property Name="Vit_E_mg" Type="decimal" />
+    <Property Name="Vit_D_µg" Type="decimal" />
+    <Property Name="Vit_D_IU" Type="decimal" />
+    <Property Name="Vit_K_µg" Type="decimal" />
+    <Property Name="FA_Sat_g" Type="decimal" />
+    <Property Name="FA_Mono_g" Type="decimal" />
+    <Property Name="FA_Poly_g" Type="decimal" />
+    <Property Name="Cholestrl_mg" Type="int" />
+    <Property Name="GmWt_1" Type="decimal" />
+    <Property Name="GmWt_Desc1" Type="nvarchar" MaxLength="120" />
+    <Property Name="GmWt_2" Type="decimal" />
+    <Property Name="GmWt_Desc2" Type="nvarchar" MaxLength="120" />
+    <Property Name="Refuse_Pct" Type="int" />
+  </EntityType>
+  <EntityType Name="Ingredients_Desc">
+    <Key>
+      <PropertyRef Name="NDB_No" />
+    </Key>
+    <Property Name="NDB_No" Type="int" Nullable="false" />
+    <Property Name="FdGrp_Cd" Type="nvarchar" MaxLength="4" />
+    <Property Name="Long_Desc" Type="nvarchar" MaxLength="200" />
+    <Property Name="Shrt_Desc" Type="nvarchar" MaxLength="60" />
+    <Property Name="ComName" Type="nvarchar" MaxLength="100" />
+    <Property Name="ManufacName" Type="nvarchar" MaxLength="65" />
+    <Property Name="Survey" Type="nvarchar" MaxLength="1" />
+    <Property Name="Ref_Desc" Type="nvarchar" MaxLength="135" />
+    <Property Name="Refuse" Type="smallint" />
+    <Property Name="SciName" Type="nvarchar" MaxLength="65" />
+    <Property Name="N_Factor" Type="real" />
+    <Property Name="Pro_Factor" Type="real" />
+    <Property Name="Fat_Factor" Type="real" />
+    <Property Name="CHO_Factor" Type="real" />
+  </EntityType>
+  <EntityType Name="RecipeLkup">
+    <Key>
+      <PropertyRef Name="RecipeLkup_Id" />
+    </Key>
+    <Property Name="Recipe_Id" Type="int" Nullable="false" />
+    <Property Name="Ingredient_Id" Type="int" Nullable="false" />
+    <Property Name="RecipeLkup_Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Serving" Type="int" />
+    <Property Name="Measurement" Type="int" />
+  </EntityType>
+  <EntityType Name="Recipes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PrepTime_m" Type="int" />
+    <Property Name="CookTime_m" Type="int" />
+    <Property Name="ReadyTime_m" Type="int" />
+    <Property Name="ImgUrl" Type="nvarchar" MaxLength="50" />
+    <Property Name="Directions" Type="nvarchar(max)" />
+    <Property Name="Rating" Type="decimal" />
+  </EntityType>
+  <Association Name="FK_RecipeLkup_Ingredients1">
+    <End Role="Ingredients" Type="NutritionModel.Store.Ingredients" Multiplicity="1" />
+    <End Role="RecipeLkup" Type="NutritionModel.Store.RecipeLkup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ingredients">
+        <PropertyRef Name="NDB_No" />
+      </Principal>
+      <Dependent Role="RecipeLkup">
+        <PropertyRef Name="Ingredient_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RecipeLkup_RecipeLkup">
+    <End Role="Recipes" Type="NutritionModel.Store.Recipes" Multiplicity="1" />
+    <End Role="RecipeLkup" Type="NutritionModel.Store.RecipeLkup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Recipes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RecipeLkup">
+        <PropertyRef Name="Recipe_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

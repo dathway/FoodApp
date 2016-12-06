@@ -1,0 +1,10 @@
+﻿@model MVC_FoodCalc.Models.IngredientsModel
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Search Results @Model.Ingredients.Count</h2>
+<ol class="fancy">
+@foreach (var r in Model.Ingredients)
+    {<li><a href="~/Home/Food/@r.NDB_No">@r.Shrt_Desc</a></li>}
+</ol>

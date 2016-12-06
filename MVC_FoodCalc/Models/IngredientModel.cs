@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace MVC_FoodCalc.Models
+{
+    public class IngredientModel
+    {
+        public int NDB_No { get; set; }
+        public int Energ_Kcal { get; set; }
+        public string Shrt_Desc { get; set; }
+        public decimal Protein_g { get; set; }
+        public decimal Lipid_Tot_g { get; set; }
+        public decimal Carbohydrt_g { get; set; }
+        public decimal Fiber_TD_g { get; set; }
+        public decimal Sugar_Tot_g { get; set; }
+        public decimal FA_Sat_g { get; set; }
+        public decimal FA_Mono_g { get; set; }
+        public decimal FA_Poly_g { get; set; }
+        public int Sodium_mg { get; set; }
+        public int Potassium_mg { get; set; }
+        public int Cholestrl_mg { get; set; }
+        public int GmWt_1 { get; set; }
+        public string GmWt_Desc1 { get; set; }
+        public int GmWt_2 { get; set; }
+        public string GmWt_Desc2 { get; set; }
+
+        public decimal Serving { get; set; }
+        public IEnumerable<SelectListItem> Measurement { get; set; }  
+    }
+}

@@ -1,0 +1,42 @@
+﻿@model MVC_FoodCalc.Models.IngredientModel
+@{
+    ViewBag.Title = "Food";
+}
+
+<h2>Food</h2> 
+@using (Html.BeginForm())
+{
+
+<div><a href="/">New Search</a></div>
+<table class="table-striped table-nutrition" >
+    <tbody>
+        <tr>
+            <td>           
+                <div>
+                    @*Serving: @Html.TextBoxFor(m => m.Serving, new { style = "width:130px;font-size:11pt;" }) &nbsp;&nbsp;&nbsp;*@
+                    Measurement: @Html.DropDownList("measurements", Model.Measurement , new { id = "measurements", style = "width:130px;font-size:11pt;" })
+                    <input type="hidden" name="foodId" id="foodId" value="@Model.NDB_No" />
+                </div>           
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.Partial("_Food", Model)
+            </td>
+        </tr>
+    </tbody>
+</table>
+}
+
+@section Scripts
+{
+    <script type="text/javascript">        
+        $(function() {            
+            $('#measurements').change(function () {
+                $('form').submit();
+            })
+            
+        })
+
+    </script>
+}
